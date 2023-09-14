@@ -2,6 +2,7 @@ package class_overview;
 
 public class Animal {
 
+    // best practice to keep instance variables private
     private String name;
     private String species;
     private int age;
@@ -26,5 +27,9 @@ public class Animal {
 
     public void birthday(){
         age++;
+    }
+
+    public String sound(){
+        return "The animal makes a sound";
     }
 }

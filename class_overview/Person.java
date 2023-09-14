@@ -30,8 +30,7 @@ public class Person extends Animal {
         addMoney(50);
     }
 
-    public void birthday(int gift){ // overloading
-        super.birthday();
-        addMoney(gift);
+    public String sound(){ //overriding
+        return "The person speaks";
     }
 }
