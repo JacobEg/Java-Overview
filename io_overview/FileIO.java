@@ -80,7 +80,7 @@ public class FileIO {
         }
     }
 
-    public static void readFile(){
+    public static void readFile() {
         Scanner scan = null;
         try{
             scan = new Scanner(new File("input.txt"));
@@ -93,7 +93,7 @@ public class FileIO {
         while(scan.hasNextLine()){
             String line = scan.nextLine();
             lineCount++;
-            wordCount += line.split("[\t\n ]+").length;
+            wordCount += line.strip().split("[\t\n ]+").length;
         }
         System.out.println("Words and lines in input.txt\n----------------");
         System.out.println(

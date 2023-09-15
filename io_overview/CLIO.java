@@ -3,8 +3,11 @@
 import java.util.Random;
 import java.util.Scanner;
 
+// camelCase
+// PascalCase
+
 public class CLIO {
-    public static void main(String[] args){
+    public static void main(String[] args){ 
         System.out.println("Command-line args\n-----------");
         int total = 0;
         for(int i = 0; i < args.length; i++){
@@ -13,7 +16,6 @@ public class CLIO {
         System.out.println(total + 
         " is the sum of the nums you entered.");
 
-
         Scanner in = new Scanner(System.in);
         System.out.println(
             "------------\nstdin\n---------------"
@@ -21,7 +23,7 @@ public class CLIO {
         System.out.println("Enter your name:");
         String name = in.nextLine();
         System.out.println(
-            "Hello " + name + "! Guess a number between [1, 10]"
+            "Hello " + name + "! Guess a number between [0, 10]"
         );
         Random rand = new Random();
         int randNum = rand.nextInt(11);

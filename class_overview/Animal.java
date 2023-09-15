@@ -17,6 +17,10 @@ public class Animal {
         return name;
     }
 
+    public void setName(String newName){
+        this.name = newName;
+    }
+
     public String getSpecies(){
         return species;
     }
