@@ -1,4 +1,4 @@
-package abstract_overview;
+// package abstract_overview;
 
 public class Gun extends Weapon {
 

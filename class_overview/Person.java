@@ -1,4 +1,4 @@
-package class_overview;
+//package class_overview;
 
 public class Person extends Animal {
 
